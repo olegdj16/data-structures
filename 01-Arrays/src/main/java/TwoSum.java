@@ -27,7 +27,8 @@ public class TwoSum {
         // If a potential match exists return that indices else put the array value and index to map
         for(int i=0;i< array.length;i++){
             int potentialMatch=target-array[i];
-            if(map.containsKey(potentialMatch)) return new int[]{i, map.get(potentialMatch)};
+            if(map.containsKey(potentialMatch))
+                return new int[]{i, map.get(potentialMatch)};
             else map.put(array[i],i);
         }
         return new int[]{};

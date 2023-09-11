@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04-Recursion" />
+        <module name="06-Trees" />
+        <module name="02-LinkedLists" />
+        <module name="01-Arrays" />
+        <module name="00-BigONotation" />
+        <module name="Heap" />
+        <module name="03-Stacks" />
+        <module name="05-Queues" />
+        <module name="dsa-10-Search" />
+        <module name="Sorting" />
+        <module name="15-AlgorithmQuestions" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
